@@ -1,0 +1,24 @@
+.hallowen{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 3px green dotted;
+    transition: transform 2s;
+}
+
+.bruxas{
+    background-color: blue;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.hallowen:hover{
+    transform: scale(2, 2);
+}
+
+
+
+    
